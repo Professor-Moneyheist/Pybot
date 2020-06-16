@@ -3,7 +3,7 @@ from discord.ext import commands
 from itertools import cycle
 from discord.ext import tasks
 
-TOKEN = 'Your Bot token' #client secret
+
 
 client = commands.Bot(command_prefix = "!")
 status = cycle(['Roblox', 'Fortnite'])
